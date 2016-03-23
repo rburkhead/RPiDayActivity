@@ -5,7 +5,7 @@ A one or two hour hands on activity using a PIR motion sensor, Raspberry Pi, and
 
 ## Motivation
 
-The San Diego Library Maker Lab asked me to "teach something with Raspberry Pis" for Pi Day. I wanted to do a hands on activity with both hardware and software. I also wanted to eat pie.
+The San Diego Library Maker Lab asked me to "teach something with Raspberry Pis" for Pi Day. I wanted to do a hands on activity with both hardware and software. I was also promised pie.
 
 ## Equipment List
 
