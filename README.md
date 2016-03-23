@@ -1,7 +1,7 @@
 # RPiDayActivity
 
 ## Summary
-A 1-2 hour hands on activity using a PIR motion sensor, Raspberry Pi, and Python code. During the activity, students create a simple motion sensor alarm that protects their pie (or other valuables). I designed the activity with beginners and kids in mind. The activity requires no soldering and no prior coding experience. 
+A 1-2 hour hands on activity using a PIR motion sensor, Raspberry Pi, and Python code. Students create a simple motion sensor alarm that protects their pie (or other valuables). I designed the activity with beginners and kids in mind. The activity requires no soldering and no prior coding experience. 
 
 ## Motivation
 
