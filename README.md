@@ -24,8 +24,8 @@ Describe and show how to run the tests with code examples.
 
 ## Contributors
 
-Rob Burkhead - Creator 
-Uyen Tran - Emerging Technologies Librarian at the San Diego Central Library
++Rob Burkhead - Creator 
++Uyen Tran - Co-teacher and Emerging Technologies Librarian at the San Diego Central Library
 
 ## License
 
