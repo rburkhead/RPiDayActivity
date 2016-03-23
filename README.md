@@ -18,10 +18,6 @@ The San Diego Library Maker Lab asked me to "teach something with Raspberry Pis"
 
 See the Instructions.md file.  
 
-## Tests
-
-Describe and show how to run the tests with code examples.
-
 ## Contributors
 
 + Rob Burkhead - Creator 
