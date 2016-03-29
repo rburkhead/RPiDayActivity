@@ -98,23 +98,23 @@ Write all code under the first line that reads
 
 7. Task: Attach the PIR sensor to the Raspberry Pi
 
-**NOTE** The following instructions attached the output from the PIR sensor to pin 23. You don't have to use 23. See the [here](https://www.raspberrypi.org/documentation/usage/gpio/) for more on GPIO pins 
-The HC-SR501 PIR motion sensor takes in 5V and outputs 3.3V. I noticed that sometimes the pins aren't labeled on the sensor. In that case pin closest to the diede is the input. The middle pin is always the output. The remaining pin is ground. 
-![](pirPins.jpg)
+	**NOTE** The following instructions attached the output from the PIR sensor to pin 23. You don't have to use 23. See the [here](https://www.raspberrypi.org/documentation/usage/gpio/) for more on GPIO pins 
+	The HC-SR501 PIR motion sensor takes in 5V and outputs 3.3V. I noticed that sometimes the pins aren't labeled on the sensor. In that case pin closest to the diede is the input. The middle pin is always the output. The remaining pin is ground. 
+	![](pirPins.jpg)
 
 
 8. Task: Print "No Motion" when no motion is dectected and "Motion Detected" when motion is detected 
 
-**NOTE** We're using GPIO NUMBERING pin 23 for input
-	
-	```python
-	while (True):
-	    if CheckForMotion(23)== False:
-	        print ("No Motion")
-	    else:
-	        print ("Motion Detected")
-	    time.sleep(1)
-	```
+	**NOTE** We're using GPIO NUMBERING pin 23 for input
+		
+		```python
+		while (True):
+		    if CheckForMotion(23)== False:
+		        print ("No Motion")
+		    else:
+		        print ("Motion Detected")
+		    time.sleep(1)
+		```
 
 9. Task: Sound the alarm when motion is detected. 
 
