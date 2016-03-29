@@ -56,29 +56,29 @@ from Setup import *
 ```python
 print "Hello World" 
 ```
-1. Task: Create a variable for your name and print it out.
+2. Task: Create a variable for your name and print it out.
 ```python
 userName = "Rob"
 print "Nice to meet you" + userName +"!" 
 ```
-1. Task: Asked the user for their name. 
+3. Task: Asked the user for their name. 
 ```python
 userName = "Rob"
 print "Nice to meet you" + userName +"!" 
 ```
-1. Task: Ask the user to enter their name
+4. Task: Ask the user to enter their name
 ```python
 userName = input("Hello, I’m an RPi! What’s your name?")
 print "Nice to meet you ” + userName “!”
 ```
-1. Task: Using a loop ask the user to enter their name repeatedly 
+5. Task: Using a loop ask the user to enter their name repeatedly 
 ```python
 while (True):
 	userName = input("Hello, I’m an RPi! What’s your name?")
 	print "Nice to meet you ” + userName “!”
 ```
 
-1. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
+6. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
 **NOTE** The speaker needs to be on and plugged into the Pi. 
 ```python
 while (True):
