@@ -52,11 +52,11 @@ Write all code under the first line that reads
 ```python
 from Setup import *
 ```
-1. Task: Print “Hello World” to the console.
+ 1. Task: Print “Hello World” to the console.
 ```python
 print "Hello World" 
 ```
-2. Task: Create a variable for your name and print it out.
+ 2. Task: Create a variable for your name and print it out.
 ```python
 userName = "Rob"
 print "Nice to meet you" + userName +"!" 
