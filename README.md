@@ -61,33 +61,6 @@ print "Hello World"
 userName = "Rob"
 print "Nice to meet you" + userName +"!" 
 ```
-3. Task: Asked the user for their name. 
-```python
-userName = "Rob"
-print "Nice to meet you" + userName +"!" 
-```
-4. Task: Ask the user to enter their name
-```python
-userName = input("Hello, I’m an RPi! What’s your name?")
-print "Nice to meet you ” + userName “!”
-```
-5. Task: Using a loop ask the user to enter their name repeatedly 
-```python
-while (True):
-	userName = input("Hello, I’m an RPi! What’s your name?")
-	print "Nice to meet you ” + userName “!”
-```
-
-6. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
-**NOTE** The speaker needs to be on and plugged into the Pi. TEST
-```python
-while (True):
-	userName = input("Hello, I’m an RPi! What’s your name?")
-	print "Nice to meet you ” + userName “!”
-	SoundTheAlarm()
-	time.sleep(4)
-```
-
 ###2.2 Attach the PIR sensor
 **NOTE** The following instructions attached the signal from the PIR sensor to pin 23. 
 
