@@ -52,7 +52,7 @@ Write all code under the first line that reads
 	```python
 	from Setup import *
 	```
-	
+
 1. Task: Print “Hello World” to the console.
 
 	```python
@@ -73,27 +73,29 @@ The HC-SR501 PIR motion sensor takes in 5V and outputs 3.3V. I noticed that some
 ![](pirPins.png)
 
 
-1. Task: Print "No Motion" when no motion is dectected and "Motion Detected" when motion is detected 
-```python
-while (True):
-    if CheckForMotion(23)== False:
-        print ("No Motion")
-    else:
-        print ("Motion Detected")
-    time.sleep(1)
-```
+2. Task: Print "No Motion" when no motion is dectected and "Motion Detected" when motion is detected 
 
-1. Task: Sound the alarm when motion is detected. 
-```python
-while (True):
-    if CheckForMotion(23)== False:
-        print ("No Motion")
-    else:
-        print ("Motion Detected")
-        SoundTheAlarm()
-        time.sleep(4)
-    time.sleep(1)
-```
+	```python
+	while (True):
+	    if CheckForMotion(23)== False:
+	        print ("No Motion")
+	    else:
+	        print ("Motion Detected")
+	    time.sleep(1)
+	```
+
+3. Task: Sound the alarm when motion is detected. 
+
+	```python
+	while (True):
+	    if CheckForMotion(23)== False:
+	        print ("No Motion")
+	    else:
+	        print ("Motion Detected")
+	        SoundTheAlarm()
+	        time.sleep(4)
+	    time.sleep(1)
+	```
 
 ## Contributors
 
