@@ -79,7 +79,7 @@ while (True):
 ```
 
 6. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
-**NOTE** The speaker needs to be on and plugged into the Pi. 
+**NOTE** The speaker needs to be on and plugged into the Pi. TEST
 ```python
 while (True):
 	userName = input("Hello, I’m an RPi! What’s your name?")
