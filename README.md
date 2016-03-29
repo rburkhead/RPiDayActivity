@@ -52,18 +52,17 @@ Write all code under the first line that reads
 ```python
 from Setup import *
 ```
- 1. Task: Print “Hello World” to the console.
+1. Task: Print “Hello World” to the console.
 
-	```python
-	print "Hello World" 
-	```
-	
- 2. Task: Create a variable for your name and print it out.
+```python
+print "Hello World" 
+```
+2. Task: Create a variable for your name and print it out.
 
-	```python
-	userName = "Rob"
-	print "Nice to meet you" + userName +"!" 
-	```
+```python
+userName = "Rob"
+print "Nice to meet you" + userName +"!" 
+```
 ###2.2 Attach the PIR sensor
 **NOTE** The following instructions attached the signal from the PIR sensor to pin 23. 
 
