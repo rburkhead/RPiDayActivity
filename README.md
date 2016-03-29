@@ -56,29 +56,29 @@ from Setup import *
 ```python
 print "Hello World" 
 ```
-2. Task: Create a variable for your name and print it out.
+1. Task: Create a variable for your name and print it out.
 ```python
 userName = "Rob"
 print "Nice to meet you" + userName +"!" 
 ```
-3. Task: Asked the user for their name. 
+1. Task: Asked the user for their name. 
 ```python
 userName = "Rob"
 print "Nice to meet you" + userName +"!" 
 ```
-4. Task: Ask the user to enter their name
+1. Task: Ask the user to enter their name
 ```python
 userName = input("Hello, I’m an RPi! What’s your name?")
 print "Nice to meet you ” + userName “!”
 ```
-5. Task: Using a loop ask the user to enter their name repeatedly 
+1. Task: Using a loop ask the user to enter their name repeatedly 
 ```python
 while (True):
 	userName = input("Hello, I’m an RPi! What’s your name?")
 	print "Nice to meet you ” + userName “!”
 ```
 
-6. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
+1. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
 **NOTE** The speaker needs to be on and plugged into the Pi. 
 ```python
 while (True):
@@ -96,7 +96,7 @@ The HC-SR501 PIR motion sensor takes in 5V and outputs 3.3V. I noticed that some
 ![](pirPins.png)
 
 
-2. Task: Print "No Motion" when no motion is dectected and "Motion Detected" when motion is detected 
+1. Task: Print "No Motion" when no motion is dectected and "Motion Detected" when motion is detected 
 ```python
 while (True):
     if CheckForMotion(23)== False:
@@ -106,7 +106,7 @@ while (True):
     time.sleep(1)
 ```
 
-3. Task: Sound the alarm when motion is detected. 
+1. Task: Sound the alarm when motion is detected. 
 ```python
 while (True):
     if CheckForMotion(23)== False:
