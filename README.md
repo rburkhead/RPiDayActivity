@@ -65,16 +65,47 @@ Write all code under the first line that reads
 	userName = "Rob"
 	print "Nice to meet you" + userName +"!" 
 	```
-###2.2 Attach the PIR sensor
-**NOTE** The following instructions attached the signal from the PIR sensor to pin 23. 
 
-1. Task: Attach the PIR sensor to the Raspberry Pi
+3. Task: Asked the user for their name. 
+	
+	```python
+	userName = "Rob"
+	print "Nice to meet you" + userName +"!" 
+	```
+4. Task: Ask the user to enter their name
+	
+	```python
+	userName = input("Hello, I’m an RPi! What’s your name?")
+	print "Nice to meet you ” + userName “!”
+	```
+5. Task: Using a loop ask the user to enter their name repeatedly 
+	
+	```python
+	while (True):
+		userName = input("Hello, I’m an RPi! What’s your name?")
+		print "Nice to meet you ” + userName “!”
+	```
+6. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
+**NOTE** The speaker needs to be on and plugged into the Pi. TEST
+	
+	```python
+	while (True):
+		userName = input("Hello, I’m an RPi! What’s your name?")
+		print "Nice to meet you ” + userName “!”
+		SoundTheAlarm()
+		time.sleep(4)
+	```
+
+7. Task: Attach the PIR sensor to the Raspberry Pi
+**NOTE** The following instructions attached the output from the PIR sensor to pin 23. You don't have to use 23. See the [here](https://www.raspberrypi.org/documentation/usage/gpio/) for more on GPIO pins 
+
 The HC-SR501 PIR motion sensor takes in 5V and outputs 3.3V. I noticed that sometimes the pins aren't labeled on the sensor. In that case pin closest to the diede is the input. The middle pin is always the output. The remaining pin is ground. 
 ![](pirPins.png)
 
 
-2. Task: Print "No Motion" when no motion is dectected and "Motion Detected" when motion is detected 
-
+8. Task: Print "No Motion" when no motion is dectected and "Motion Detected" when motion is detected 
+**NOTE** We're using GPIO NUMBERING pin 23 for input
+	
 	```python
 	while (True):
 	    if CheckForMotion(23)== False:
@@ -84,7 +115,7 @@ The HC-SR501 PIR motion sensor takes in 5V and outputs 3.3V. I noticed that some
 	    time.sleep(1)
 	```
 
-3. Task: Sound the alarm when motion is detected. 
+9. Task: Sound the alarm when motion is detected. 
 
 	```python
 	while (True):
