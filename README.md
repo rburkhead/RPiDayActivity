@@ -40,9 +40,6 @@ The RPiDayActivityFiles directory contains the following:
 
 ## 2 - Lesson plan 
 
-
-###2.1 Learn a little Python.
-
 We will be writing code using IDLE3. Normally you might open IDLE3 by double clicking its icon; however, since we'll be using the GPIO ports we need to open IDLE3 using sudo. 
 Open IDLE3 using the following in the terminal: 
 		sudo idle3 
