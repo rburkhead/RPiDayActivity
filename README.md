@@ -106,14 +106,14 @@ Write all code under the first line that reads
 
 	**NOTE** We're using pin 23 (GPIO NUMBERING) for input
 		
-		```python
-		while (True):
-		    if CheckForMotion(23)== False:
-		        print ("No Motion")
-		    else:
-		        print ("Motion Detected")
-		    time.sleep(1)
-		```
+	```python
+	while (True):
+	    if CheckForMotion(23)== False:
+	        print ("No Motion")
+	    else:
+	        print ("Motion Detected")
+	    time.sleep(1)
+	```
 
 9. Task: Sound the alarm when motion is detected. 
 
