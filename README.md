@@ -63,7 +63,7 @@ Write all code under the first line that reads
 	print "Nice to meet you" + userName +"!" 
 	```
 
-3. Task: Asked the user for their name. 
+3. Task: Ask the user for their name. 
 	
 	```python
 	userName = "Rob"
