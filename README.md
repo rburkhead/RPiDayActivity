@@ -83,7 +83,7 @@ Write all code under the first line that reads
 		print "Nice to meet you ” + userName “!”
 	```
 6. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
-**NOTE** The speaker needs to be on and plugged into the Raspberry Pi. 
+**NOTE** The speaker needs to be on and plugged into the Raspberry Pi. Make sure the volume is up! 
 	
 	```python
 	while (True):
