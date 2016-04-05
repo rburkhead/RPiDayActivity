@@ -32,6 +32,7 @@ Next, reboot the Pi by typing sudo reboot
 
 ###1.2 Move the RPiDayActivityFiles directory to the Raspberry Pi. 
 The RPiDayActivityFiles directory contains the following: 
+
 1. PiAlarm.py - file to start the lesson with
 1. PiAlarmComplete.py - example of a complete alarm.
 1. Setup.py - function definitions and audio setup 
