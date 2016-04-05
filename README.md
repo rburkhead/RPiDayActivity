@@ -1,11 +1,11 @@
 # RPiDayActivity
 
 ## Summary
-A one or two hour hands on activity using a PIR motion sensor, Raspberry Pi, and Python code. Students create a simple motion sensor alarm that protects their pie (or other valuables). I designed the activity with beginners and kids in mind. The activity requires no soldering. The students don't need any programming knowledge. The instructor should be comfortable installing dependencies using the terminal, running python files within IDLE3, basic knowledge of the Raspberry Pi's GPIO ports. 
+A one or two hour hands on activity using a PIR motion sensor, Raspberry Pi, and Python code. Students create a simple motion sensor alarm that protects their pie (or other valuables). I designed the activity with beginners/kids in mind. The activity requires no soldering. The students don't need any programming knowledge. The instructor should be comfortable installing dependencies using the terminal, running python files within IDLE3, basic knowledge of the Raspberry Pi's GPIO ports. 
 
 ## Motivation
 
-The San Diego Library Maker Lab asked me to "teach something with Raspberry Pis" for Pi Day. I wanted to do a hands on activity with both hardware and software. I was also promised pie.
+The San Diego Library Maker Lab asked me to "teach something with Raspberry Pis" for Pi Day. I wanted to do a hands on activity with both hardware and software. I was also promised a slice pie.
 
 ## Getting Started
 
@@ -19,7 +19,6 @@ The San Diego Library Maker Lab asked me to "teach something with Raspberry Pis"
 1. Pie (for eating... er I mean protecting)
 
 ## 1 - Installing utilities & transfer files 
-**NOTE** You will be using the Terminal utility on the Raspberry Pi to install the utilities you need to play audio files. The Terminal utility comes preinstall with Raspbian. You can open from the desktop. 
 
 ###1.1 Install mpg123 MP3 player. 
 We want to play an alarm sound. The mpg123 MP3 player will to this. 
@@ -41,7 +40,8 @@ The RPiDayActivityFiles directory contains the following:
 ## 2 - Lesson plan 
 
 We will be writing code using IDLE3. Normally you might open IDLE3 by double clicking its icon; however, since we'll be using the GPIO ports we need to open IDLE3 using sudo. 
-Open IDLE3 using the following in the terminal: 
+Open IDLE3 by typing the following in the Terminal: 
+
 		sudo idle3 
 
 Open the PiAlarm.py file. 
