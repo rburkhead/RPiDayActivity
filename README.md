@@ -57,33 +57,27 @@ Write all code under the first line that reads
 	print "Hello World" 
 	```
 
-2. Task: Create a variable for your name and print it out.
+2. Task: Create a variable to store your name and print it to the console. 
 
 	```python
 	userName = "Rob"
 	print "Nice to meet you" + userName +"!" 
 	```
 
-3. Task: Ask the user for their name. 
-	
-	```python
-	userName = "Rob"
-	print "Nice to meet you" + userName +"!" 
-	```
-4. Task: Ask the user to enter their name
+3. Task: Ask the user to enter their name and print a customized message to the console using their name. 
 	
 	```python
 	userName = input("Hello, I’m an RPi! What’s your name?")
 	print "Nice to meet you ” + userName “!”
 	```
-5. Task: Using a loop ask the user to enter their name repeatedly 
+4. Task: Using a loop ask the user to enter their name repeatedly. 
 	
 	```python
 	while (True):
 		userName = input("Hello, I’m an RPi! What’s your name?")
 		print "Nice to meet you ” + userName “!”
 	```
-6. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
+5. Task: Using a loop ask the user to enter their name repeatedly, but sound the alarm everytime they enter their name. 
 **NOTE** The speaker needs to be on and plugged into the Raspberry Pi. Make sure the volume is up! 
 	
 	```python
@@ -91,16 +85,16 @@ Write all code under the first line that reads
 		userName = input("Hello, I’m an RPi! What’s your name?")
 		print "Nice to meet you ” + userName “!”
 		SoundTheAlarm()
-		time.sleep(4)
+		time.sleep(4) # wait 4 seconds while the alarm plays. 
 	```
 
-7. Task: Attach the PIR sensor to the Raspberry Pi
+6. Task: Attach the PIR sensor to the Raspberry Pi
 
-	**NOTE** See the [here](https://www.raspberrypi.org/documentation/usage/gpio/) for more on GPIO pins. The HC-SR501 PIR motion sensor takes in 5V and outputs 3.3V. I noticed that some HC-SR501 boards do not label the pins. In that case use the following as a guide: input (5V) is closest to the diode, output is the middle (0-3.3V), and ground is furthest from the diode. I've marked the diode in the photo below. 
+	**NOTE** See [here](https://www.raspberrypi.org/documentation/usage/gpio/) for more on GPIO pins. The HC-SR501 PIR motion sensor takes in 5V and outputs 3.3V. I noticed that some HC-SR501 boards do not label the pins. In that case use the following as a guide: input (5V) is closest to the diode, output is the middle (0-3.3V), and ground is furthest from the diode. I've marked the diode in the photo below. 
 	![](pirPins.jpg)
 
 
-8. Task: Print "No Motion" when no motion is dectected and "Motion Detected" when motion is detected 
+7. Task: Print "No Motion" when no motion is dectected and "Motion Detected" when motion is detected 
 
 	**NOTE** We're using pin 23 (GPIO NUMBERING) for input
 		
@@ -110,10 +104,10 @@ Write all code under the first line that reads
 	        print ("No Motion")
 	    else:
 	        print ("Motion Detected")
-	    time.sleep(1)
+	    time.sleep(1) # wait a second before reading the alarm again
 	```
 
-9. Task: Sound the alarm when motion is detected. 
+8. Task: Sound the alarm when motion is detected. 
 
 	```python
 	while (True):
